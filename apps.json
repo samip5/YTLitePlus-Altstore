@@ -38,6 +38,7 @@
         "entitlements": [
           "com.apple.security.application-groups",
           "com.apple.developer.associated-domains",
+          "com.apple.developer.storekit.request-data",
           "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
           "com.apple.developer.usernotifications.time-sensitive",
           "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
