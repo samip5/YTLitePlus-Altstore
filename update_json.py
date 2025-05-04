@@ -102,7 +102,7 @@ def update_json_file(json_file, latest_release):
     news_identifier = f"release-{full_version}"
     date_string = date_obj.strftime("%d/%m/%y")
     news_entry = {
-        "appID": "com.google.ios.youtube",
+        "appID": "dev.kryptonian.ios.youtube",
         "caption": f"Update of YTLitePlus just got released!",
         "date": latest_release["published_at"],
         "identifier": news_identifier,
@@ -126,7 +126,7 @@ def update_json_file(json_file, latest_release):
         raise
 
 def main():
-    repo_url = "YTLitePlus/YTLitePlus"
+    repo_url = "samip5/YTLitePlus"
     json_file = "apps.json"
     keyword = "YTLitePlus"
 
